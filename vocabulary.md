@@ -1,6 +1,8 @@
 JS BUILT-IN FUNCTIONS
 - console.log() - function to access developer console
 - alert() - pop-up function
+- Number() - converts strings to numbers
+- String() - converts numbers to strings
 
 OPERATORS
 - typeof: returns data type
@@ -29,6 +31,9 @@ TERMS TO KNOW
 - var: old variable declaration (avoid using)
 - operator: allows us to combine multiple values (many diff. types of operators)
 - template literals: easy way of defining complex strings -- uses back ticks and references fields with ${}, also supports multi-line strings
+- type conversion: specific conversion from one type to another
+- NaN: not a number, aka invalid number but it is of type number
+- type coercion: conversion of type to match another value's type.. JS does this automatically
 
 CONVENTIONS
 - write mutable variable names in camel-case

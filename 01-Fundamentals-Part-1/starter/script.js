@@ -87,7 +87,22 @@ else {
     const yearsLeft = 18 - cindyAge;
     console.log(`Cindy cannot vote yet. Wait another ${yearsLeft} years.`);
 }
+
+// TYPE CONVERSION AND COERCION
+// type conversion
+const inputYear = '1991';
+console.log(Number(inputYear) + 18);
+console.log(Number("Hello")); // value is NaN (not a number)
+// type coercion - JS does this automatically
+console.log('23' - '10' - 3); // result is # because operator is restricted to numbers
+console.log('23' + '10' + 3); // result is string because + operator works on strings and first value is a string
+let n = '1' + 1; // '11'
+n = n - 1; // 10
+console.log(n);
 */
+
+
+// EXERCISES!
 
 // Values and Variables Exercises
 const country = 'USA';
@@ -114,10 +129,28 @@ console.log(population++);
 const finlandPopluation = 6000000;
 console.log(population > finlandPopluation);
 const averagePopluation = 33000000;
-console.log(population > finlandPopluation);
+console.log(population > averagePopluation);
 const description = country + " is in " + continent + " and its " + population + " people speak " + language;
 console.log(description);
 
 // Strings and Template Literals Exercises
 const descriptionLiteral = `${country} is in ${continent} and its ${population} people speak ${language}`;
 console.log(descriptionLiteral);
+
+// Taking Decisions: if / else Statements Exercises
+if (population >= averagePopluation) {
+    console.log(`${country}'s population is ${population - averagePopluation} above average.`)
+}
+else {
+    console.log(`${country}'s population is ${averagePopluation - population} below average.`)
+}
+
+// Type Conversion and Coercion Exercises
+/*
+Predictions:
+'9' - '5'; --> 4 (correct)
+'19' - '13' + '17'; --> 23 (incorrect.. '617')
+'19' - '13' + 17; --> 23 (correct)
+'123' < 57; --> false (correct)
+ 5 + 6 + '4' + 9 - 4 - 2; --> 1143 (correct)
+*/
