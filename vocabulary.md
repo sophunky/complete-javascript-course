@@ -1,7 +1,6 @@
 JS BUILT-IN FUNCTIONS
 - console.log() - function to access developer console
 - alert() - pop-up function
-- let - variable declaration (only needed for the first declaration, not when updating value)
 
 OPERATORS
 - typeof - returns data type
@@ -21,14 +20,22 @@ TERMS TO KNOW
 - BigInt: larger ints than number type can hold
 - dynamic typing: in JS, datatypes are determined automatically and don't need to be declared
 - variables don't have types in JS, the value has a type (ie variable x can be a number and then later redefined as a string)
+- mutating: updating value of a variable
+- let - mutable variable declaration (only needed for the first declaration, not when updating value)
+- const - immutable variable declaration
+- var - old variable declaration (avoid using)
 
 CONVENTIONS
 - write mutable variable names in camel-case
 - don't start variable names with an upper case
 - write constant variables in all caps
+- var variable dec. should be avoided 
 
 RULES
 - variable names can only have letters, numbers, the $ and underscores and can't start w/ #s
 
 KEYBOARD SHORTCUTS:
 - 
+
+BEST PRACTICES:
+- declare variables as constants unless you're positive their value will need to change

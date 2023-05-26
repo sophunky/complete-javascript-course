@@ -9,7 +9,6 @@ console.log(23);
 
 let firstName = 'Jonas';
 let PI = 3.1415;
-*/
 
 // DATA TYPES LECTURE
 console.log(typeof true);
@@ -21,10 +20,16 @@ console.log(typeof newVar);
 
 console.log(typeof null); // bug in JS that will never be fixed probably.. but is that it returns an object but should return null
 
+// LET CONST VAR LECTURE
+let age = 30;
+age = 31; // reassigning and/or mutate a variable
+const birthYear = 1990; // const declarations require an initial value
+*/
+
 
 // Values and Variables Exercises
-let country = 'USA';
-let continent = 'North America';
+//let country = 'USA';
+// let continent = 'North America';
 let population = '332 million'
 console.log(country);
 console.log(continent);
@@ -37,3 +42,8 @@ console.log(typeof isIsland);
 console.log(typeof country);
 console.log(typeof continent);
 console.log(typeof population);
+
+// let, const, var Exercises
+language = 'English';
+const country = 'USA';
+const continent = 'North America';
