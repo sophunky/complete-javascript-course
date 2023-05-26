@@ -202,7 +202,8 @@ Predictions:
 */
 
 // Equality Operators: == vs. === Exercises
-const numNeighbors = Number(prompt("How many neighbor countries does your country have?"));
+//const numNeighbors = Number(prompt("How many neighbor countries does your country have?"));
+const numNeighbors = 1;
 if (numNeighbors === 1) console.log(`Only 1 border!`)
 else if (numNeighbors > 1) console.log(`More than 1 border`)
 else console.log(`No borders`);
