@@ -59,7 +59,25 @@ x = y = 25 - 10 - 5;
 console.log(x,y);
 
 const avgAge = (ageSophie + ageSophie) / 2;
+
+// STRINGS AND TEMPLATE LITERALS
+const firstName = 'James';
+const job = "Carpenter";
+const birthYear = 1980;
+const year = 2023;
+const james = "I'm " + firstName + ", a " + (year - birthYear) + ' year old ' + job + '!'; // pain for long strings
+console.log(james);
+// template literal
+const jamesNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`
+console.log(jamesNew);
+// back ticks work for all strings
+console.log(`any old string`);
+// multi-lines w/ template literals -- no \n\ needed:
+console.log(`String
+multiple
+lines`);
 */
+
 
 
 // Values and Variables Exercises
@@ -90,3 +108,7 @@ const averagePopluation = 33000000;
 console.log(population > finlandPopluation);
 const description = country + " is in " + continent + " and its " + population + " people speak " + language;
 console.log(description);
+
+// Strings and Template Literals Exercises
+const descriptionLiteral = `${country} is in ${continent} and its ${population} people speak ${language}`;
+console.log(descriptionLiteral);

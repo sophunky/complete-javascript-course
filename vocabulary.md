@@ -28,6 +28,7 @@ TERMS TO KNOW
 - const: immutable variable declaration
 - var: old variable declaration (avoid using)
 - operator: allows us to combine multiple values (many diff. types of operators)
+- template literals: easy way of defining complex strings -- uses back ticks and references fields with ${}, also supports multi-line strings
 
 CONVENTIONS
 - write mutable variable names in camel-case
