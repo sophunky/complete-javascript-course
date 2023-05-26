@@ -116,7 +116,25 @@ if (height) { // problem -- height is 0.. we have to add another filter
 } else {
     console.log(`Height is undefined.`);
 }
+
+// EQUALITY OPERATORS == VS ===
+const age = 18;
+//strict
+if (age === 18) console.log(`You just became an adult`); // true
+if (age === '18') console.log(`You just became an adult`); // false
+// loose
+if (age == 18) console.log(`You just became an adult`); // true
+if (age == '18') console.log(`You just became an adult`); // true
+const favorite = Number(prompt("What's your favorite number?"));
+console.log(favorite);
+if ( favorite === 23 ) {
+    console.log(`Nice! 23 is a cool number.`);
+} else if ( favorite === 8 ) {
+    console.log(`Oh no 8 is not great.`);
+} 
 */
+
+
 
 // EXERCISES!
 
@@ -170,3 +188,9 @@ Predictions:
 '123' < 57; --> false (correct)
  5 + 6 + '4' + 9 - 4 - 2; --> 1143 (correct)
 */
+
+// Equality Operators: == vs. === Exercises
+const numNeighbors = Number(prompt("How many neighbor countries does your country have?"));
+if (numNeighbors === 1) console.log(`Only 1 border!`)
+else if (numNeighbors > 1) console.log(`More than 1 border`)
+else console.log(`No borders`);

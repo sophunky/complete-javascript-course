@@ -3,12 +3,17 @@ JS BUILT-IN FUNCTIONS
 - alert() - pop-up function
 - Number() - converts strings to numbers
 - String() - converts numbers to strings
+- prompt() - pull input from user
 
 OPERATORS
 - typeof: returns data type
 - math operators: plus +, minus -, multiply *, to the power **, divide /, remainder %
 - assignment operators: =, increment value +=, -=, *=, /=, increment by 1 ++, decrement by 1 --
 - comparison operators: >, <, >=, <=
+- == operator: loose equality operator, does type coercion
+- === operator: strict equality operator, no type coercion
+- != operator: loose does not equal operator, does type coercion
+- !== operator: strict does not equal operator, no type coercion
 
 TERMS TO KNOW
 - value: smallest unit of information in JS, either an object or a primitive value
@@ -50,3 +55,5 @@ KEYBOARD SHORTCUTS:
 
 BEST PRACTICES:
 - declare variables as constants unless you're positive their value will need to change
+- use strict === operator rather than loose == operator (pretend == doesn't exist)
+- use strict !== operator rather than loose != operator 
