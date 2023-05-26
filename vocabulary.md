@@ -3,7 +3,10 @@ JS BUILT-IN FUNCTIONS
 - alert() - pop-up function
 
 OPERATORS
-- typeof - returns data type
+- typeof: returns data type
+- math operators: plus +, minus -, multiply *, to the power **, divide /, remainder %
+- assignment operators: =, increment value +=, -=, *=, /=, increment by 1 ++, decrement by 1 --
+- comparison operators: >, <, >=, <=
 
 TERMS TO KNOW
 - value: smallest unit of information in JS, either an object or a primitive value
@@ -21,9 +24,10 @@ TERMS TO KNOW
 - dynamic typing: in JS, datatypes are determined automatically and don't need to be declared
 - variables don't have types in JS, the value has a type (ie variable x can be a number and then later redefined as a string)
 - mutating: updating value of a variable
-- let - mutable variable declaration (only needed for the first declaration, not when updating value)
-- const - immutable variable declaration
-- var - old variable declaration (avoid using)
+- let: mutable variable declaration (only needed for the first declaration, not when updating value)
+- const: immutable variable declaration
+- var: old variable declaration (avoid using)
+- operator: allows us to combine multiple values (many diff. types of operators)
 
 CONVENTIONS
 - write mutable variable names in camel-case

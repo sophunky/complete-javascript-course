@@ -24,13 +24,38 @@ console.log(typeof null); // bug in JS that will never be fixed probably.. but i
 let age = 30;
 age = 31; // reassigning and/or mutate a variable
 const birthYear = 1990; // const declarations require an initial value
+
+// BASIC OPERATORS
+// math operators
+const now = 2023;
+const ageSophie = now - 1997; // minus operator
+const ageJonas = now - 1991;
+console.log(ageSophie, ageJonas);
+console.log(ageJonas*2, ageJonas/2, 2**3);
+const firstName = 'Sophie';
+const lastName = 'Mittelstadt';
+console.log(firstName + ' ' + lastName)
+
+//assignment operators
+let x = 10 + 5;
+x += 10;
+x ++;
+x --;
+
+// comparison operators
+console.log(ageSophie > ageJonas);
+console.log(ageSophie >= 18);
+const isAdult = ageSophie >= 18;
 */
 
 
+
+
+
 // Values and Variables Exercises
-//let country = 'USA';
-// let continent = 'North America';
-let population = '332 million'
+const country = 'USA';
+const continent = 'North America';
+let population = 332000000;
 console.log(country);
 console.log(continent);
 console.log(population);
@@ -45,5 +70,13 @@ console.log(typeof population);
 
 // let, const, var Exercises
 language = 'English';
-const country = 'USA';
-const continent = 'North America';
+
+// Basic Operators Exercises
+let populationHalf = population/2;
+console.log(population++);
+const finlandPopluation = 6000000;
+console.log(population > finlandPopluation);
+const averagePopluation = 33000000;
+console.log(population > finlandPopluation);
+const description = country + " is in " + continent + " and its " + population + " people speak " + language;
+console.log(description);
