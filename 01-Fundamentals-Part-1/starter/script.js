@@ -132,8 +132,20 @@ if ( favorite === 23 ) {
 } else if ( favorite === 8 ) {
     console.log(`Oh no 8 is not great.`);
 } 
-*/
 
+// LOGICAL OPERATORS
+const hasDriversLicense = true;
+const hasGoodVision = true;
+console.log(hasDriversLicense && hasGoodVision); // true
+console.log(hasDriversLicense || hasGoodVision); // true
+console.log(!hasDriversLicense && hasGoodVision); // false
+console.log(!hasDriversLicense || hasGoodVision); // true
+const shouldDrive = hasDriversLicense && hasGoodVision
+if (shouldDrive) {
+    console.log(`Sarah can drive`)
+}
+else console.log(`Sarah should not drive`)
+*/
 
 
 // EXERCISES!
@@ -194,3 +206,8 @@ const numNeighbors = Number(prompt("How many neighbor countries does your countr
 if (numNeighbors === 1) console.log(`Only 1 border!`)
 else if (numNeighbors > 1) console.log(`More than 1 border`)
 else console.log(`No borders`);
+
+// Logical Operators Exercises
+if ((language === 'English') && (population < 50000000) && !isIsland) {
+    console.log(`Come move to the ${country}!`)
+} else console.log(`${country} does not meet your criteria :(`);

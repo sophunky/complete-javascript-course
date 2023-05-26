@@ -14,6 +14,7 @@ OPERATORS
 - === operator: strict equality operator, no type coercion
 - != operator: loose does not equal operator, does type coercion
 - !== operator: strict does not equal operator, no type coercion
+- boolean operators: and &&, or ||, not !
 
 TERMS TO KNOW
 - value: smallest unit of information in JS, either an object or a primitive value
