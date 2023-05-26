@@ -46,10 +46,20 @@ x --;
 console.log(ageSophie > ageJonas);
 console.log(ageSophie >= 18);
 const isAdult = ageSophie >= 18;
+
+// OPERATOR PRECEDENCE
+const now = 2023;
+const ageSophie = now - 1997; // minus operator
+const ageJonas = now - 1991;
+
+console.log(now - 1991 > now - 2018); // works because of precedence
+
+let x, y; // we can declare more than one variable at a time
+x = y = 25 - 10 - 5;
+console.log(x,y);
+
+const avgAge = (ageSophie + ageSophie) / 2;
 */
-
-
-
 
 
 // Values and Variables Exercises
