@@ -99,8 +99,24 @@ console.log('23' + '10' + 3); // result is string because + operator works on st
 let n = '1' + 1; // '11'
 n = n - 1; // 10
 console.log(n);
-*/
 
+// TRUTHY AND FALSY
+// falsy values: will be false if converted to boolean -- 5 of them: 0, "", undefined, null, NaN
+// all values that aren't falsy are truthy
+const money = 0;
+if (money) { // JS converts variable to boolean according to truthy/falsy rules
+    console.log(`Don't spend it all!`);
+} else {
+    console.log(`You should get a job.`);
+}
+
+let height = 123;
+if (height) { // problem -- height is 0.. we have to add another filter
+    console.log(`Yay height is defined!`);
+} else {
+    console.log(`Height is undefined.`);
+}
+*/
 
 // EXERCISES!
 

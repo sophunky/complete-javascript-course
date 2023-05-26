@@ -34,6 +34,7 @@ TERMS TO KNOW
 - type conversion: specific conversion from one type to another
 - NaN: not a number, aka invalid number but it is of type number
 - type coercion: conversion of type to match another value's type.. JS does this automatically
+- falsy values: will be false if converted to boolean -- 5 of them: 0, "", undefined, null, NaN
 
 CONVENTIONS
 - write mutable variable names in camel-case
