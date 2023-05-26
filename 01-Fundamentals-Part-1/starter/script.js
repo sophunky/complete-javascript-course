@@ -76,9 +76,18 @@ console.log(`any old string`);
 console.log(`String
 multiple
 lines`);
+
+// TAKING DECISIONS: IF/ELSE STATEMENTS
+const cindyAge = 15;
+const isOldEnough = cindyAge >= 18;
+if (isOldEnough) {
+    console.log("Cindy can vote!");
+}
+else {
+    const yearsLeft = 18 - cindyAge;
+    console.log(`Cindy cannot vote yet. Wait another ${yearsLeft} years.`);
+}
 */
-
-
 
 // Values and Variables Exercises
 const country = 'USA';
