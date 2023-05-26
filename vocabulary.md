@@ -1,12 +1,26 @@
 JS BUILT-IN FUNCTIONS
-- console.log(): function to access developer console
+- console.log() - function to access developer console
 - alert() - pop-up function
-- let
+- let - variable declaration (only needed for the first declaration, not when updating value)
+
+OPERATORS
+- typeof - returns data type
 
 TERMS TO KNOW
-- value: smallest unit of information in JS
+- value: smallest unit of information in JS, either an object or a primitive value
 - variable: a box that we can store a value inside
 - label: another word for variable name
+- object
+- primitive: data type - 7 of them: number, string, boolean, undefined, null, symbol, BigInt
+- number: floating point numbers (used for decimals & ints)
+- string: sequence of characters (used for text)
+- boolean: logical value, true or false
+- undefined: value taken by var not yet defined ('empty value')
+- null: also means 'empty value'
+- symbol: value that's unique and unchangeable
+- BigInt: larger ints than number type can hold
+- dynamic typing: in JS, datatypes are determined automatically and don't need to be declared
+- variables don't have types in JS, the value has a type (ie variable x can be a number and then later redefined as a string)
 
 CONVENTIONS
 - write mutable variable names in camel-case
@@ -16,3 +30,5 @@ CONVENTIONS
 RULES
 - variable names can only have letters, numbers, the $ and underscores and can't start w/ #s
 
+KEYBOARD SHORTCUTS:
+- 
