@@ -145,8 +145,31 @@ if (shouldDrive) {
     console.log(`Sarah can drive`)
 }
 else console.log(`Sarah should not drive`)
-*/
 
+// THE SWITCH STATEMENT
+const day = 'monday';
+switch(day) {
+    case 'monday': // day === 'monday'
+        console.log("grocery shop");
+        console.log("do coding");
+        break;
+    case 'tuseday':
+        console.log("dance");
+        console.log("cook dinner");
+        break; // without break, code below continues executing regardless if next case is met.
+    case 'wednesday':
+    case 'thursday': // back to back means the same will execute for wednesday & thursday
+        console.log("work hard");
+        break;
+    case 'friday':
+    case 'saturday':  
+    case 'sunday':    
+        console.log("enjoy the weekend");
+        break;
+    default: // basically an 'else' block
+        console.log("not a valid day");
+}
+*/
 
 // EXERCISES!
 
@@ -212,3 +235,26 @@ else console.log(`No borders`);
 if ((language === 'English') && (population < 50000000) && !isIsland) {
     console.log(`Come move to the ${country}!`)
 } else console.log(`${country} does not meet your criteria :(`);
+
+// The switch Statement Exercises
+const lang = 'chinese';
+switch(lang) {
+    case 'chinese':
+    case 'mandarin':
+        console.log('MOST number of native speakers!');
+        break;
+    case 'spanish':
+        console.log('2nd place in number of native speakers');
+        break;
+    case 'english':
+        console.log('3rd place in number of native speakers');
+        break;
+    case 'hindi':
+        console.log('4th place in number of native speakers');
+        break;
+    case 'arabic':
+        console.log('5th place in number of native speakers');
+        break;
+    default:
+        console.log('Great language too :D');
+}

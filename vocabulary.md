@@ -41,6 +41,7 @@ TERMS TO KNOW
 - NaN: not a number, aka invalid number but it is of type number
 - type coercion: conversion of type to match another value's type.. JS does this automatically
 - falsy values: will be false if converted to boolean -- 5 of them: 0, "", undefined, null, NaN
+- switch statement: alternative to if/else, good to use when there are many options & you need to check for equality
 
 CONVENTIONS
 - write mutable variable names in camel-case
