@@ -169,7 +169,24 @@ switch(day) {
     default: // basically an 'else' block
         console.log("not a valid day");
 }
+
+// STATEMENTS AND EXPRESSIONS
+// expressions produce a value (ex: 3+4, true && false)
+// statements don't produce a value but execute an action (ex: if/else statement, switch statement)
+// console.log can only hold expressions, not statements
+
+// THE CONDITIONAL (TERNARY) OPERATOR
+const age = 23;
+// if else in one line: use ternary operator
+age >= 18 ? console.log('I like to drink wine.'): console.log('I like to drink water.');
+
+// used more as an expression not a statement
+const drink = age >= 18 ? "wine": "water";
+console.log(`I like to drink ${drink}.`);
+
+console.log(`I like to drink ${age >= 18 ? "wine": "water"}`);
 */
+
 
 // EXERCISES!
 
@@ -258,3 +275,6 @@ switch(lang) {
     default:
         console.log('Great language too :D');
 }
+
+// The Conditional (Ternary) Operator Exercises
+console.log(`${country}'s population is ${population >= 33000000? 'above': 'below'} average.`)

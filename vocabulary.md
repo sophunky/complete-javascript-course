@@ -42,6 +42,9 @@ TERMS TO KNOW
 - type coercion: conversion of type to match another value's type.. JS does this automatically
 - falsy values: will be false if converted to boolean -- 5 of them: 0, "", undefined, null, NaN
 - switch statement: alternative to if/else, good to use when there are many options & you need to check for equality
+- expressions: produce a value
+- statements: don't produce a value but execute actions
+- ternary operator: condition? if: else; the ternary operator is useful whenn used as an expression
 
 CONVENTIONS
 - write mutable variable names in camel-case
