@@ -45,6 +45,7 @@ TERMS TO KNOW
 - expressions: produce a value
 - statements: don't produce a value but execute actions
 - ternary operator: condition? if: else; the ternary operator is useful whenn used as an expression
+- strict mode
 
 CONVENTIONS
 - write mutable variable names in camel-case
