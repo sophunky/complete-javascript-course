@@ -48,6 +48,20 @@ console.log(age1, age2);
 
 // reminder: expressions produce values
 // in JS, functions are values and so they can be stored in variables
- */
 
+// ARROW FUNCTIONS
+// shorter version of function expression
+const calcAge3 = birthYear => 2023-birthYear;
+// ideal for simple one line functions
+const age3 = calcAge3(1991);
+console.log(age3);
 
+const yearsUntilRetirement = (birthYear, firstName) => {
+    const age = 2023-birthYear;
+    const retirement = 65 - age;
+    return `${firstName} retires in ${retirement} years.`;
+}
+console.log(yearsUntilRetirement(1991, 'Julie'));
+console.log(yearsUntilRetirement(1980, 'Bob'));
+
+*/
