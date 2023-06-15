@@ -6,9 +6,7 @@
  let hasDriversLicense = false;
  const passTest = true;
  if (passTest) hasDriverLicense = true; // error.. example of what strict mode does in the console
- */
 
- 'use strict'; // activates script mode.. has to be first code in file
 
 // FUNCTIONS
 function logger () {
@@ -30,3 +28,6 @@ console.log(appleJuice);
 
 const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice);
+ */
+
+ 'use strict'; // activates script mode.. has to be first code in file
